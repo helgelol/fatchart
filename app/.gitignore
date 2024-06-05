@@ -7,7 +7,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Dependency directories
+node_modules/
+jspm_packages/
+package.lock
 dist
 dist-ssr
 *.local
@@ -22,3 +25,35 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.env.production
+.env.development
+public/build/
+.vscode/
+
+
+# Typescript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env
+.env.local
+.env.*.local
+
+# Mac files
+.DS_Store
+/test-results/
+/playwright-report/
+/playwright/.cache/
